@@ -10,7 +10,7 @@ body {
 
 .container {
     height: 100%;
-    width: 100%;
+    width: 1920px;
     max-width: 100%;
     min-width: 200px;
     margin: 0 auto;
@@ -18,10 +18,8 @@ body {
 }
 
 .header {
-    width: 100%;
+    width: 1920px;
     height: 1024px;
-    max-width: 100%;
-    min-width: 200px;
     background-image: url(../img/header.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,8 +35,8 @@ body {
 
 .header__logo {
     position: absolute;
-    left: 23%;
-    top: 6%;
+    left: 20%;
+    top: 4%;
 }
 
 .logo__img {
@@ -52,8 +50,38 @@ body {
     font-weight: 400;
     text-align: right;
     float: left;
+    padding-top: 2%;
 }
 
+.header__menu {
+    position: absolute;
+    left: 41%;
+    top: 6%;
+    width: 40%;
+}
+
+.menu__list {
+    list-style: none;
+    float: left;
+    padding-right: 30px;
+}
+
+.menu__list a {
+    font-family: Montserrat;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+    text-decoration: none;
+}
+
+.menu__list a:hover {
+    font-family: Montserrat;
+    color: #c7b29a;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+}
 
 .services {
     width: 100%;
