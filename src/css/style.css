@@ -1,3 +1,31 @@
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('../font/raleway-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratlight';
+    src: url('../font/montserrat-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewayextrabold';
+    src: url('../font/raleway-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewaymedium';
+    src: url('../font/raleway-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -28,11 +56,6 @@ body {
     position: relative;
 }
 
-.logo {
-    width: 181px;
-    height: 56px;
-}
-
 .header__logo {
     position: absolute;
     left: 20%;
@@ -44,7 +67,7 @@ body {
 }
 
 .logo__text {
-    font-family: Raleway;
+    font-family: 'ralewayregular';
     color: #ffffff;
     font-size: 34px;
     font-weight: 400;
@@ -55,9 +78,8 @@ body {
 
 .header__menu {
     position: absolute;
-    left: 41%;
-    top: 6%;
-    width: 40%;
+    left: 774px;
+    top: 58px;
 }
 
 .menu__list {
@@ -67,7 +89,7 @@ body {
 }
 
 .menu__list a {
-    font-family: Montserrat;
+    font-family: 'montserratlight';
     color: #ffffff;
     font-size: 14px;
     font-weight: 300;
@@ -76,11 +98,129 @@ body {
 }
 
 .menu__list a:hover {
-    font-family: Montserrat;
+    font-family: 'montserratlight';
     color: #c7b29a;
     font-size: 14px;
     font-weight: 300;
     text-align: left;
+}
+
+.header__icons {
+    position: absolute;
+    float: left;
+    right: 374px;
+    top: 55px;
+}
+
+.icons__cart-link {
+    margin-right: 20px;
+}
+
+.icons__cart-link:hover {
+    margin-right: 20px;
+    border-bottom: 2px solid #c7b29a;
+}
+
+.icons__search-link:hover {
+    border-bottom: 2px solid #c7b29a;
+}
+
+.header__slogan {
+    position: absolute;
+    width: 589px;
+    left: 666px;
+    top: 379px;
+}
+
+.header__slogan-h2 {
+    font-family: 'ralewaymedium';
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.header__slogan-h1 {
+    font-family: 'ralewayextrabold';
+    color: #ffffff;
+    font-size: 52px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 17px;
+}
+
+.header__slogan-p {
+    font-family: 'montserratlight';
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+}
+
+.header__button {
+    position: absolute;
+    left: 876px;
+    top: 589px;
+}
+
+.header__button input[type=submit] {
+    font-family: 'ralewayextrabold';
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: #998675;
+    border-color: #998675;
+    border-bottom-color: #998675;
+    width: 170px;
+    height: 53px;
+}
+
+.header__button input[type=submit]:hover {
+    font-family: 'ralewayextrabold';
+    color: #998675;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid #998675;
+    background-color: #ffffff;
+    width: 170px;
+    height: 53px;
+}
+
+.header__arrows {
+    position: absolute;
+    top: 475px;
+}
+
+.arrows__left {
+    position: relative;
+    float: left;
+    left: 150px;
+}
+
+.arrows__right {
+    position: absolute;
+    float: left;
+    left: 1730px;
+}
+
+.arrows__left:hover {
+    position: relative;
+    float: left;
+    left: 148px;
+}
+
+.arrows__right:hover {
+    position: absolute;
+    float: left;
+    left: 1732px;
 }
 
 .services {
