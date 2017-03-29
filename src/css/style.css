@@ -64,6 +64,24 @@ body {
 
 .logo__img {
     float: left;
+    -moz-transition: 3s;
+    -ms-transition: 3s;
+    -webkit-transition: 3s;
+    -o-transition: 3s;
+    transition: 3s;
+}
+
+.logo__img:hover {
+    -moz-transform: rotate(120deg);
+    -ms-transform: rotate(120deg);
+    -webkit-transform: rotate(120deg);
+    -o-transform: rotate(120deg);
+    transform: rotate(120deg);
+    -moz-transition: 3s;
+    -ms-transition: 3s;
+    -webkit-transition: 3s;
+    -o-transition: 3s;
+    transition: 3s;
 }
 
 .logo__text {
@@ -223,9 +241,32 @@ body {
     left: 1732px;
 }
 
+.header__slides {
+    position: absolute;
+    left: 909px;
+    bottom: 40px;
+}
+
+.header__slides i {
+    color: #ffffff;
+    font-size: 11px;
+    margin-right: 9px;
+}
+
+.header__slides i:hover {
+    color: transparent;
+    font-size: 11px;
+    margin-right: 9px;
+    margin-left: -2px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
 .services {
-    width: 100%;
+    width: 1166px;
     height: 213px;
+    position: relative;
+    margin: auto;
 }
 
 .browser {
