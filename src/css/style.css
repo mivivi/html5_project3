@@ -26,6 +26,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'ralewaysemibold';
+    src: url('../font/raleway-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -54,6 +61,7 @@ body {
     background-position: center;
     margin: auto;
     position: relative;
+    margin-bottom: 80px;
 }
 
 .header__logo {
@@ -263,10 +271,40 @@ body {
 }
 
 .services {
-    width: 1166px;
     height: 213px;
     position: relative;
     margin: auto;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.services__item {
+    width: 266px;
+    height: 213px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+.services__item h3 {
+    font-family: 'ralewaysemibold';
+    color: #555555;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 19px;
+}
+
+.services__item p {
+    font-family: 'montserratlight';
+    color: #8c8c8c;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.services__item img {
+    margin-bottom: 29px;
 }
 
 .browser {
